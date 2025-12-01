@@ -1,0 +1,10 @@
+haha its a .txt file
+
+essentially to solve 12-2 I noticed:
+1. there's huge clumps of 'a's floating around 
+2. the only time when 'a' is next to 'b' is at that starting line (and some 'a's that happendstance are around there)
+
+so to solve this puzzle 
+i simply replaced all the 'a's with zs then switched back all the 'a's (now 'z's) that were next to 'b's to those 'a's then just iterated over those manually (by changing that start location parameter)
+
+and that's how i got my answer :)
